@@ -38,7 +38,7 @@ def sec_dataframe(sec_url):
 
     df = pd.DataFrame(col1, columns=['File_url'])
     df['Date'] = col2
-    df['Type'] =
+    df['Type'] = e_type
     csv_location = '/home/saxena/PycharmProjects/test1/Tests/new_data.csv'
     df.to_csv(csv_location)
     return csv_location
